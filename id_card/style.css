@@ -1,0 +1,99 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .id-card {
+    width: 350px;
+    height: 250px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+  }
+  
+  /* Header */
+  .id-card-header {
+    background-color: #0066cc;
+    color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .company-logo {
+    width: 60px;
+    height: auto;
+  }
+  
+  /* Body */
+  .id-card-body {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    height: 250px;
+  }
+  
+  .photo-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+  }
+  
+  .employee-photo {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .employee-details {
+    flex: 1;
+  }
+  
+  .employee-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .employee-role {
+    color: #666;
+    margin-bottom: 5px;
+  }
+  
+  .employee-id,
+  .department,
+  .validity {
+    color: #444;
+    font-size: 12px;
+    margin-bottom: 3px;
+  }
+  
+  /* Footer */
+  .id-card-footer {
+    background-color: #f5f5f5;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  .footer-text {
+    font-size: 12px;
+    color: #777;
+  }
+  
